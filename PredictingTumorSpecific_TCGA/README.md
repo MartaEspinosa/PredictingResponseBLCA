@@ -42,3 +42,9 @@ We consider a minimum expression of 1 TPM (minimum expression per novel transcri
 Transcripts expressed in tumor samples but also in normal samples would not be relevant for neoantigens identification, since the body will be able to recognize those peptides as self. So, here we use the expression data from the normal samples to only keep those transcripts that are expressed (> 3 TPM) in the tumor sample but not in the normal one (< 0.1 TPM). This is done per patient, obtaining in the end a non-redundant list of all transcripts that are tumor-specific in at least one patient.
 
 Another issue is whether those that fulfill tumor-specific expression conditions are expressed in healthy tissues or not. If so, we are not interested in them any more. For this, we only allow a median of < 0.5 TPM according to GTEx project with exception of testis and ovaries.
+
+### 4. Tumor-Specific Criteria
+
+Once the definition of the main subset of tumor-specific genes is done, we can change the expression cut-off to consider a smaller subset of genes.
+Moreover, we want to increase tumor-specificity by removing genes that are tumor-specific in some patients but they are expressed more than 1 TPM in other patients.
+Another applied criteria is to select only those genes tumor-specific in > 10% of the analyzed peptides.
