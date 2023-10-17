@@ -1,0 +1,52 @@
+# SOFTWARES
+
+## 0. Preprocessing
+
+SRA-Toolkit v2.9.2
+md5sum v8.22
+
+## 1. Processing
+
+FastQScreen v0.14
+Bowtie2 v2.4.2
+FastQC v0.11.7
+Java 1.8.0
+Python v3
+Cutadapt v2.1
+############### adapters.fa
+STAR v2.7.8
+SAMtools v1.8
+RSeQC
+
+
+## 3. Tumor-Expressed
+
+subread v2.0.3
+gffread v0.12
+R v4.1.
+
+############## GRCh38.v38.primary.assembly.genome.fa
+
+#####PYTHON MODULES#####
+os
+re
+shutil
+glob
+openpyxl
+pandas
+Bio
+gtfparse
+matplotlib_venn
+matplotlib
+
+
+#####R PACKAGES#####
+tidyr
+dplyr
+rtracklayer
+ggplot2
+RColorBrewer
+devtools
+stringr
+edgeR
+ggpubr
